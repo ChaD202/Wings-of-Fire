@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wings of Fire | Menu</title>
+
+        <link rel="stylesheet" href="static/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h3 id="order"> Submit your order </h3>
+
+        <form action="/" method="POST" class="form">
+            <h4> Name: </h4>
+            <input name="name">
+
+            <h4> Address: </h4>
+            <textarea name="address" rows="5" cols="100">
+            </textarea>
+
+            <h4> Meal: </h4>
+                <select name="meal">
+                    <option value="Lost In Spice">Lost In Spice</option>
+                    <option value="Henmageddon">Henmageddon</option>
+                    <option value="A Cluck With Disaster">A Cluck With Disaster</option>
+                </select>
+
+            <h4> Drink: </h4>
+                <select name="drink">
+                    <option value="Coca Cola">Coca Cola</option>
+                    <option value="Fanta">Fanta</option>
+                    <option value="7UP">7UP</option>
+                    <option value="Flappucino">Flappucino</option>
+                </select>
+
+            <br/>
+            <input type="submit" value="Post">
+        </form>
+
+    </body>
+</html>

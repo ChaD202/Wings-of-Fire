@@ -1,0 +1,34 @@
+#title {
+    background-color:#E4C8B7;
+    text-align:center;
+    width: 100%;
+}
+
+#order {
+    background-color:#E4C8B7;
+    text-align:center;
+    width:100%;
+}
+
+.form {
+    width:100%;
+}
+
+body {
+    background-color:#F3E9DC;
+}
+
+.order-header {
+    background-color:#C7A48F;
+    width:100%;
+}
+
+.order-footer {
+    background-color:#DAB49D;
+    width:100%;
+}
+
+* {
+    font-family:'Lato', 'sans-serif';
+    color:#F3E9DC;
+}
