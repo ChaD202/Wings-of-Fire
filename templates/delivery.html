@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wings of Fire | Delivery</title>
+
+    <link rel="icon" href="static/wings_favicon.ico"/>
+
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h3 id="header"> Delivery </h3>
+
+    <div class="content">
+            <table class="orders">
+                <tr class="order-header">
+                    <td> ID </td>
+                    <td> Address </td>
+                    <td> Price </td>
+                    <td> Submit </td>
+                </tr>
+                {% for order in orders %}
+
+                <tr class="order">
+                    <td>{{order[0]}}</td>
+                    <td>{{order[2]}}</td>
+                    <td>{{order[5]}}</td>
+                    <td><form action="/delivery" method="POST"><button type="submit" name="id" id="submit" value={{order[0]}}>Done</button></form></td>
+                </tr>
+
+                {% endfor %}
+            </table>
+    </div>
+</body>
+</html>

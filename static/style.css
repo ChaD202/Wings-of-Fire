@@ -1,0 +1,59 @@
+* {
+    font-family:'Lato', 'sans-serif';
+    color:#A44200;
+}
+
+body {
+    background-color:#C48E53;
+}
+
+input, textarea, select {
+    background-color:#D1A779;
+    border-color:#D8AC7D;
+}
+
+input[type=text] {
+    padding: 5px;
+}
+
+#header {
+    background-color:#D58936;
+    text-align:center;
+    width:100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(104, 90, 74, 0.75);
+}
+
+#button {
+    margin: 10px 0px;
+}
+
+#submit {
+
+}
+
+.order-form {
+    width:100%;
+}
+
+.content {
+    background-color:#D58936;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(104, 90, 74, 0.75);
+}
+
+.orders {
+    width:100%;
+}
+
+.order-header {
+    background-color:#C48E53;
+    width:100%;
+}
+
+.order {
+    background-color:#D1A779;
+    width:100%;
+}
+
