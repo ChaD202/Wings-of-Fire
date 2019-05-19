@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wings of Fire | Kitchen</title>
+
+        <link rel="icon" href="static/wings_favicon.ico"/>
+
+        <link rel="stylesheet" href="static/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    </head>
+
+    <h3 id="header"> Kitchen </h3>
+
+    <body>
+        <div class="content">
+            <table class="orders">
+                <tr class="order-header">
+                    <td> ID </td>
+                    <td> Name </td>
+                    <td> Address </td>
+                    <td> Meal </td>
+                    <td> Drink </td>
+                </tr>
+                {% for order in orders %}
+
+                <tr class="order">
+                    <td>{{order[0]}}</td>
+                    <td>{{order[1]}}</td>
+                    <td>{{order[2]}}</td>
+                    <td>{{order[3]}}</td>
+                    <td>{{order[4]}}</td>
+                </tr>
+
+                {% endfor %}
+            </table>
+        </div>
+
+    </body>
+</html>
